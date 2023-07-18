@@ -14,7 +14,7 @@ public class Main {
 		double measure = 53.234567;
 		
 		
-		
+		/////////
 		
 		
 		System.out.printf("%s , which price is %.2f $%n", product1, price1);
