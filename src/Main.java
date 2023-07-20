@@ -1,5 +1,5 @@
 import java.util.Locale;
-import java.util.Scanner;
+
 
 
 public class Main {
@@ -7,24 +7,35 @@ public class Main {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter three numbers: ");
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
 
-		if (a > b && a > c ){
-			System.out.print("Higher = " + a);
 
-		}else if (b > c ){
-			System.out.print("Higher = " + b );
 
-		}else{
-			System.out.print("Higher = " + c);
-		}
+
+
+
+
+
+
+
+
+
+	}
+}
+
+		// Scanner sc = new Scanner(System.in);
+		// System.out.println("Enter three numbers: ");
+		// int a = sc.nextInt();
+		// int b = sc.nextInt();
+		// int c = sc.nextInt();
+
+		// int higher = max(a,b,c);
+
+		// showResult(higher);
 		
-		sc.close();
+
 		
+		// sc.close();
+	
 
 		// String original = "Luan LUAN silva";
 		// String s1 = original.toLowerCase();
@@ -53,6 +64,27 @@ public class Main {
 		// System.out.printf("US decimal point: %.3f%n", measure);
 
 
-	}
+	
 
-}
+	// public static int max(int x , int y, int z){
+	// 	int aux;
+	// 	if (x > y && x > z ){
+			
+	// 		aux = x;
+
+	// 	}else if (y > z ){
+			
+	// 		aux = y;
+	// 	}else{
+			
+	// 		aux = z;
+	// 	}
+	// 	return aux; 
+	// }
+
+	// public static void showResult(int value){
+
+	// 	System.out.println("Higher = " + value);
+	// }
+
+// }
