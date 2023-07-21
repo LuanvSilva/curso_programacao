@@ -43,6 +43,8 @@ public class Program {
         System.out.print("Larger area Y");
 
      }
+     
+     sc.next();
 
     }
 
