@@ -19,7 +19,7 @@ public class Program2 {
         System.out.print("Quantity in stock: ");
         product.quantidade = sc.nextInt();
 
-        System.out.print(product.toString());
+        System.out.println(product);
 
         sc.close();
     }

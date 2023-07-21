@@ -22,4 +22,9 @@ public class Product {
             System.out.println("Quantidade indisponível");
         }
     }
+
+    public String toString() {
+        return name + " , $: " + String.format("%.2f", price) + " , " + quantidade + " units, Total : $ "
+                + String.format("%.2f", totalValueInStock());
+    }
 }
