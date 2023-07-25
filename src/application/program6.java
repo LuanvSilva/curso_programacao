@@ -34,6 +34,17 @@ public class program6 {
         double mediaAlturas = soma / n;
         System.out.printf("Altura média : %.2f%n ", mediaAlturas);
 
+        int cont = 0;
+        for (int i = 0; i < n; i++) {
+            if(idades[i] < 16){
+
+                cont = cont + 1;
+            }
+        }
+        double percent = cont * 100.0 / n;
+
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n ", percent);
+
         sc.close();
 
     }
