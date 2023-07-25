@@ -3,42 +3,44 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import entities.Account;
 
 public class program5 {
-     
- public static void main(String[] args) {
-     Locale.setDefault(Locale.US);
+
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
-        System.out.print("Enter product data ");
-        System.out.print("Name: ");
-        product.name = sc.nextLine();
-        System.out.print("Price: ");
-        product.price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        product.quantidade = sc.nextInt();
+        System.out.println("Enter accounty number ");
+        int conta = sc.nextInt();
+        sc.nextLine();
 
-        System.out.println();
-        System.out.println("Product data" + product);
-        System.out.println();
-        System.out.print("Enter the number of products to be added in stock :");
-        int quantidade = sc.nextInt();
-        product.addProduct(quantidade);
+        System.out.println("Enter account holder: ");
+        String nome = sc.nextLine();
 
-        System.out.println();
-        System.out.println("Update data" + product);
+        System.out.println("Enter initial deposit value: ");
+        double valor = sc.nextDouble();
 
-        System.out.println();
-        System.out.print("Enter the number of products to be removed from stock:");
-        quantidade = sc.nextInt();
-        product.removeProducts(quantidade);
+        Account account = new Account(conta, nome, valor);
 
-        System.out.println();
-        System.out.println("Update data" + product);
+        System.out.printf("Account: " + account.conta + " Holder: " + account.nome + " Balance $: %.2f ",
+                account.valor);
+
+        System.out.println("\nEnter a deposit value :");
+        account.deposito = sc.nextDouble();
+
+        System.out.printf("Account: " + account.conta + " Holder: " + account.nome + " Balance $: %.2f ",
+                account.deposito());
+
+        System.out.println("\nEnter a withdraw value :");
+        account.saque = sc.nextDouble();
+
+        System.out.printf("Account: " + account.conta + " Holder: " + account.nome + " Balance $: %.2f ",
+                account.saque());
+
+
 
         sc.close();
- }
+    }
 
 }
