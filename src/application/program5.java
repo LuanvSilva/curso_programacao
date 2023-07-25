@@ -38,8 +38,6 @@ public class program5 {
         System.out.printf("Account: " + account.conta + " Holder: " + account.nome + " Balance $: %.2f ",
                 account.saque());
 
-
-
         sc.close();
     }
 

@@ -21,11 +21,11 @@ public class Account {
     }
 
     public double saque() {
-        if (this.saque > this.valor) {
+        if (this.saque > this.deposito) {
             System.out.println("Saldo insuficiente!");
             return -100;
         } else {
-            return  this.deposito - this.saque - 5.00;
+            return this.deposito - this.saque - 5.00;
         }
     }
 
