@@ -36,7 +36,7 @@ public class program6 {
 
         int cont = 0;
         for (int i = 0; i < n; i++) {
-            if(idades[i] < 16){
+            if (idades[i] < 16) {
 
                 cont = cont + 1;
             }
@@ -44,6 +44,11 @@ public class program6 {
         double percent = cont * 100.0 / n;
 
         System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n ", percent);
+
+        for (int i = 0; i < n; i++) {
+            if (idades[i] < 16)
+                System.out.println(nomes[i]);
+        }
 
         sc.close();
 
