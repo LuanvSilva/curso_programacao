@@ -15,7 +15,7 @@ public class Program7 {
 
         String[] name = new String[h];
         String[] email = new String[h];
-        int[] room = new int[h];
+        int[] room = new int[h]; 
 
         for (int i = 0; i < h; i++) {
             
