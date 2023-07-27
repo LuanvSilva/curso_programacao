@@ -1,27 +1,41 @@
 package entities;
 
 public class Persons {
-    
-    public int id;
-    public String name;
-    public double salary;
-    public double porcentagem;
-    public int[] vec = new int[1000];
+    private int id;
+    private String nome;
+    private double salario;
 
-    public Persons(int id, String name, double salary){
-
+    public Persons(int id, String nome, double salario) {
         this.id = id;
-        this.name = name ;
-        this.salary  = salary;
-        
-
+        this.nome = nome;
+        this.salario = salario;
     }
 
-    
+    // Métodos getters e setters para acessar e modificar os atributos
 
-    public double porcent(){
-        return (this.salary * this.porcentagem) / 100; 
+    public int getId() {
+        return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    // Outros métodos (se necessário) para a classe Persons
 }
