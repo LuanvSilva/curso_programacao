@@ -63,7 +63,7 @@ public class Program9 {
 
             }
         }
-        
+
         sc.close();
     }
 }
