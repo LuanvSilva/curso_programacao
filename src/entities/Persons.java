@@ -13,6 +13,7 @@ public class Persons {
 
     // Métodos getters e setters para acessar e modificar os atributos
 
+
     public int getId() {
         return id;
     }
