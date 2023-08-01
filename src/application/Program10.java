@@ -25,6 +25,6 @@ public class Program10 {
         System.out.println("d04 = " + d04);
         System.out.println("fmt = " + d04.format(fmt));
         
-///
+
     }
 }
