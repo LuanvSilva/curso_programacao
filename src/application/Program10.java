@@ -17,8 +17,9 @@ public class Program10 {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
         LocalDate d04 = LocalDate.parse("26/07/1996", fmt);
+
         
-        //////
+        ///////////
 
         System.out.println("d01 = " + d01);
         System.out.println("d02 = " + d02);
