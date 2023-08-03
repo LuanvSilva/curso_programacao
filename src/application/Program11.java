@@ -3,7 +3,7 @@ package application;
 import java.util.Date;
 
 import entities.Order;
-import entities.OrderStatus;
+import entities.enums.OrderStatus;
 
 public class Program11 {
 
