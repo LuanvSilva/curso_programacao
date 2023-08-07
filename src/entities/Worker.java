@@ -2,7 +2,7 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import entities.Department;
 import entities.enums.WorkerLevel;
 
 public class Worker {
