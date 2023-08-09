@@ -23,7 +23,7 @@ public class Program8 {
         }
 
         System.out.println("-------------------");
-        list.removeIf(x -> x.charAt(0) == 'C'); // remover a string conforme O primeiro caractere for C
+        list.removeIf(x -> x.charAt(0) == 'C'); // remover a string conforme O primeiro caractere for C //////
 
         for (String x : list) {
             System.out.println(x);

@@ -32,7 +32,7 @@ public class program12 {
             System.out.println("Enter contract " + i+1 + "data:");
             System.out.print("Date (DD/MM/YYYY)");
          }
-//////////////////////////////
+///////////////////////////////////////////////////
         sc.close();
     }
 }
