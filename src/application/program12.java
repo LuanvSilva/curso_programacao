@@ -24,7 +24,7 @@ public class program12 {
         System.out.print("Base salary");
         double baseSalary = sc.nextDouble();
 
-        Worker worker new Worker(workerName, WorkerLevel.valueOf(workLevel), baseSalary, new Department(departmentName));
+       // Worker worker new Worker(workerName, WorkerLevel.valueOf(workLevel), baseSalary, new Department(departmentName));
 
          System.out.print("How namy contracts to worker?");
          int n = sc.nextInt();
