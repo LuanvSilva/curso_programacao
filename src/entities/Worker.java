@@ -18,6 +18,6 @@ public class Worker {
       public Worker(String name, WorkerLevel level,Double baseSalary){
 
     }
-    
+    /////////////////////////////////////
 
 }
