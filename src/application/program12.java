@@ -23,6 +23,7 @@ public class program12 {
         String workLevel = sc.nextLine();
         System.out.print("Base salary");
         double baseSalary = sc.nextDouble();
+///////////////
 
        // Worker worker new Worker(workerName, WorkerLevel.valueOf(workLevel), baseSalary, new Department(departmentName));
 
